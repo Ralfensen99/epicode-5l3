@@ -1,0 +1,2 @@
+
+Le differenze tra una scansione SYN e una TCP non sono significative. Durante una scansione OS fingerprint di Windows, le porte classificate come "unknown" potrebbero essere dovute a dispositivi di sicurezza come IPS/IDS. Per risolvere questa situazione, si potrebbe regolare il timing della scansione o eliminare il parallelismo, poiché Nmap utilizza un approccio multithread quando deve scansionare più IP contemporaneamente.
